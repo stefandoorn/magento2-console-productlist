@@ -9,8 +9,8 @@
     <type name="Magento\Framework\Console\CommandList">
         <arguments>
             <argument name="commands" xsi:type="array">
-                <item name="productlist_command" xsi:type="object">Stefan\Test\Console\Command\ProductlistCommand</item>
-                <item name="producttypes_command" xsi:type="object">Stefan\Test\Console\Command\ProducttypesCommand</item>
+                <item name="productlist_command" xsi:type="object">StefanDoorn\ConsoleProductList\Console\Command\ProductlistCommand</item>
+                <item name="producttypes_command" xsi:type="object">StefanDoorn\ConsoleProductList\Console\Command\ProducttypesCommand</item>
             </argument>
         </arguments>
     </type>
