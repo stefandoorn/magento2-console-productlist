@@ -1,6 +1,6 @@
 # magento2-console-productlist
 
-Easy console module to get product list
+Easy console module to show a product list on the console (with some filters available).
 
 ## Background
 
@@ -28,15 +28,15 @@ php bin/magento setup:upgrade
 
 ## Commands
 
-Commands available:
+The commands below are available. Feel free to submit PRs to add additional features.
 
 ### products:types 
 Shows product types available
  
-### products:list 
+### products:list <typeName> [--active] [--count]
 Shows all products
 
 * Include --active to only get active products
-* Include <typeName> to get only products of certain type
+* Include <typeName> to get only products of certain type (optional)
 * Include --count to only get a count, instead of a list
 * Example: php bin/magento products:list simple --active --count
